@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-data = pd.read_csv(r"C:\Users\nwjoy\OneDrive\Documents\SkillCraft\SCT-2\Mall_Customers.csv")
+data = pd.read_csv("Mall_Customers.csv")
 
 X = data[["Annual Income (k$)", "Spending Score (1-100)"]]
 
